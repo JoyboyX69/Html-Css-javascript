@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>HTML &lt;video&gt; Tag Overview</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            padding: 20px;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        h1,
+        h2 {
+            color: #004080;
+        }
+
+        .code-block {
+            background-color: #d0e7ff;
+            border-left: 5px solid #004080;
+            padding: 10px;
+            font-family: monospace;
+            margin: 15px 0;
+        }
+
+        video {
+            margin-top: 10px;
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #004080;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>🎥 Overview of the &lt;video&gt; Tag in HTML</h1>
+
+    <p>The <code>&lt;video&gt;</code> tag is used to embed video content in a web page. It allows you to play video
+        files like MP4, WebM, and OGG.</p>
+
+    <h2>🧱 Basic Syntax:</h2>
+    <div class="code-block">
+        &lt;video controls width="320"&gt;<br>
+        &nbsp;&nbsp;&lt;source src="video-file.mp4" type="video/mp4"&gt;<br>
+        &nbsp;&nbsp;&lt;source src="video-file.webm" type="video/webm"&gt;<br>
+        &nbsp;&nbsp;Your browser does not support the video tag.<br>
+        &lt;/video&gt;
+    </div>
+
+    <h2>🧪 Example:</h2>
+    <video controls width="480" height="270" poster="https://www.w3schools.com/html/mov_bbb.jpg">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+        <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg" />
+        Your browser does not support the video tag.
+    </video>
+
+    <h2>⚙️ Why Use &lt;video&gt;?</h2>
+    <ul>
+        <li>To add video playback capability to web pages.</li>
+        <li>Supports multiple video formats for browser compatibility.</li>
+        <li>Built-in controls let users play, pause, adjust volume, and fullscreen.</li>
+        <li>Supports poster images shown before video plays.</li>
+    </ul>
+
+    <h2>📌 Important Attributes:</h2>
+    <ul>
+        <li><code>controls</code>: Shows video controls (play, pause, volume).</li>
+        <li><code>autoplay</code>: Automatically plays the video when the page loads.</li>
+        <li><code>loop</code>: Plays the video repeatedly.</li>
+        <li><code>muted</code>: Starts the video muted.</li>
+        <li><code>poster</code>: Displays an image before the video starts.</li>
+        <li><code>width</code> and <code>height</code>: Set video player size.</li>
+    </ul>
+
+    <h2>📋 Summary:</h2>
+    <ul>
+        <li>The <code>&lt;video&gt;</code> tag enables native video playback in browsers.</li>
+        <li>Supports fallback text if the browser does not support video.</li>
+        <li>Multiple sources improve compatibility.</li>
+    </ul>
+
+</body>
+
+</html>
