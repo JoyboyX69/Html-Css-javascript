@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.d1 {
+    width: 400px;
+    height: 300px;
+    background-color: brown;
+
+}
+
+p {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.l1 {
+    width: 200px;
+    margin: 50px;
+    background-color: white;
+}
+
+#l3 {
+    background-color: orangered;
+    color: white;
+}
