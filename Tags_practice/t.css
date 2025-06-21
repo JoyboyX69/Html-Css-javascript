@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.d1 {
+    background-color: blue;
+    height: 300px;
+    width: 600px;
+
+}
+
+table {
+    /* background-color: white; */
+    height: 300px;
+    width: 600px;
+    text-align: center;
+
+}
+
+th {
+    background-color: bisque;
+}
+
+#t1 {
+    background-color: beige;
+}
+
+tr {
+    background-color: white;
+}
