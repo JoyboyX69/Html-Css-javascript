@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 900px;
+    margin: auto;
+    min-height: 100vh;
+    /* border: 2px solid black; */
+    /* margin-top: 100px; */
+}
+
+.main {
+    width: 400px;
+    height: 450px;
+    border: 2px solid black;
+    box-shadow: 0 0 4px blue;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: 200;
+    line-height: 50px;
+    padding-left: 10px;
+}
+
+p {
+    padding-left: 35px;
+    line-height: 20px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+span {
+    text-align: center;
+    padding-left: 50px;
+}
+
+.content {
+    width: 100%;
+    /* border: 2px solid black; */
+    height: 250px;
+    margin-left: 10px;
+    margin-top: 20px;
+    line-height: 35px;
+}
+
+label {
+    font-size: 20px;
+    /* padding-top: 50px; */
+    /* padding-left: 40px; */
+}
+
+input {
+    height: 30px;
+    width: 340px;
+    /* padding-left: 50px; */
+    margin-left: 20px;
+    /* line-height: 40px; */
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px black;
+    border: none;
+}
+
+button {
+    margin-left: 20px;
+    margin-top: 25px;
+    border-radius: 20px;
+    height: 40px;
+    width: 340px;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+
+#bar {
+    /* margin-top: 10px; */
+    padding-top: 10px;
+    line-height: 50px;
+    /* padding-bottom: 400px; */
+}
+
+.c1 {
+    /* margin-bottom: 600px; */
+    /* padding-bottom: 200px; */
+}
