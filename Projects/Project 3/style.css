@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    font-family: "Lato", sans-serif;
+    /* background-image: url(images/img1.jpg); */
+
+}
+
+.s1 {
+    background-image: url(images/img1.jpg);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s2 {
+    background-image: url(images/img2.jpg);
+    min-height: 500px;
+}
+
+.s3 {
+    background-image: url(images/img3.jpg);
+    min-height: 500px;
+}
+
+/* .s1,
+.s2,
+.s3 {
+    background-position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
+
+.parallax-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* .s2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.content {
+    background-color: #313534;
+    width: 600px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 4px;
+}
+
+.section_one {
+    height: 350px;
+    /* margin-top: 20px; */
+    padding: 50px 80px;
+    /* padding-top: 20px; */
+    text-align: justify;
+
+    text-align: center;
+    /* text-transform: uppercase; */
+}
+
+.sections h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.sections {
+    background-color: #f4f4f4;
+    color: grey;
+    /* text-align: justify; */
+}
+
+.s2 .content {
+    width: 650px;
+}
+
+.c1 {
+    color: white;
+    background-color: #313534;
+}
+
+.s3 .content {
+    width: 700px;
+}
+
+.s23 {
+    /* background-color: #313534; */
+    width: 800px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.c2 {
+    background-color: #313534;
+}
+
+.p1 {
+    font-size: 20px;
+}
