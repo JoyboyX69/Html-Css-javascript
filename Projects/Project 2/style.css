@@ -81,14 +81,14 @@ button {
     padding: 5px 10px;
     border: transparent solid 2px;
     border-radius: 5px;
-    transition: 0.3s solid ease-in;
+    transition: background-color 0.2s ease-in;
     color: white;
 }
 
 button:hover {
     background-color: #ccc;
     color: black;
-    transition: 0.3s solid ease-out;
+    transition: background-color 0.3s ease-out;
     cursor: pointer;
 }
 
