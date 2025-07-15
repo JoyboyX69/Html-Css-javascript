@@ -3,3 +3,65 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.first_section {
+    background-image: url(images/developer.png);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text_container {
+    color: white;
+    max-width: 900px;
+    /* max-height: 50px; */
+    /* border: 2px solid white; */
+    margin: 0 auto;
+    padding-top: 20px;
+    font-weight: 100;
+    /* font-family: "Roboto", sans-serif; */
+    padding-left: 50px;
+    /* font-family: "Roboto", sans-serif; */
+}
+
+.large_text {
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.text_container h2 {
+    font-size: 30px;
+}
+
+.text_container h1 {
+    text-transform: uppercase;
+}
+
+
+.second_section {
+    background-color: black;
+    min-height: 150px;
+    color: white;
+    /* margin-top: 40px; */
+    text-align: center;
+    /* justify-content: center; */
+    /* font-family: "Roboto", sans-serif; */
+}
+
+.second_section h2 {
+    padding-top: 20px;
+    font-size: 60px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.second_section span {
+    font-weight: 400;
+    font-size: 90px;
+}
